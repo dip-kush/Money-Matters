@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TextView 
+   	android:id="@+id/textView1" 
+   	android:layout_width="0dip"
+   	android:layout_height="50dp"
+   	android:layout_weight="2" 
+   	
+   	android:textSize="25sp" 
+  
+   	android:minHeight="?android:attr/listPreferredItemHeight"
+   	android:gravity="center_vertical"
+   	android:text="@string/textView1"
+   	android:ellipsize="end"/>
+    <TextView 
+   	android:id="@+id/textView2" 
+   	android:layout_width="wrap_content"
+   	android:layout_height="50dp"
+   	
+   	android:layout_gravity="right" 
+   	android:textSize="25sp" 
+   
+   	android:minHeight="?android:attr/listPreferredItemHeight"
+   	android:gravity="center_vertical"
+   	android:text="@string/textView2"
+   	android:textColor="@color/Red"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/rupee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imageView"/>
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:text="@string/textView4"
+        
+        android:textSize="15sp" />
+
+    </LinearLayout>
+    
